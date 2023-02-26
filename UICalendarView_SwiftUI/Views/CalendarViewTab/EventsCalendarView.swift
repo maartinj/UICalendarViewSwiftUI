@@ -18,13 +18,14 @@ struct EventsCalendarView: View {
     @State private var formType: EventFormType?
     var body: some View {
         NavigationStack {
-            ScrollView {
+            VStack {
                 CalendarView(interval: DateInterval(start: .distantPast, end: .distantFuture), eventStore: eventStore, dateSelected: $dateSelected, displayEvents: $displayEvents)
                 Image("launchScreen")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 100)
             }
+            .fixedSize(horizontal: true, vertical: true)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
