@@ -21,6 +21,8 @@
 		BBEAB8E0286CEBD400BF4A75 /* EventFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEAB8DF286CEBD400BF4A75 /* EventFormViewModel.swift */; };
 		BBEAB8E2286CEC8800BF4A75 /* EventFormType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEAB8E1286CEC8800BF4A75 /* EventFormType.swift */; };
 		BBEAB8E6286CF82E00BF4A75 /* ListViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEAB8E5286CF82E00BF4A75 /* ListViewRow.swift */; };
+		E463E5F229A9AF08003F30C8 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463E5F129A9AF08003F30C8 /* CalendarView.swift */; };
+		E463E5F629AAF223003F30C8 /* DaysEventsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463E5F529AAF223003F30C8 /* DaysEventsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		BBEAB8DF286CEBD400BF4A75 /* EventFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormViewModel.swift; sourceTree = "<group>"; };
 		BBEAB8E1286CEC8800BF4A75 /* EventFormType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormType.swift; sourceTree = "<group>"; };
 		BBEAB8E5286CF82E00BF4A75 /* ListViewRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewRow.swift; sourceTree = "<group>"; };
+		E463E5F129A9AF08003F30C8 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		E463E5F529AAF223003F30C8 /* DaysEventsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysEventsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				BB0D6D4E286D28D700C72C50 /* EventsCalendarView.swift */,
+				E463E5F129A9AF08003F30C8 /* CalendarView.swift */,
+				E463E5F529AAF223003F30C8 /* DaysEventsListView.swift */,
 			);
 			path = CalendarViewTab;
 			sourceTree = "<group>";
@@ -218,6 +224,8 @@
 			files = (
 				BBEAB8E6286CF82E00BF4A75 /* ListViewRow.swift in Sources */,
 				BB9F3A52286C0C0F00664628 /* Event.swift in Sources */,
+				E463E5F629AAF223003F30C8 /* DaysEventsListView.swift in Sources */,
+				E463E5F229A9AF08003F30C8 /* CalendarView.swift in Sources */,
 				BB0D6D4F286D28D700C72C50 /* EventsCalendarView.swift in Sources */,
 				BBB135BE286CD59F00F3E911 /* EventsListView.swift in Sources */,
 				BBB135BC286CD37400F3E911 /* StartTabView.swift in Sources */,
